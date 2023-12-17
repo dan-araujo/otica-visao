@@ -1,0 +1,17 @@
+.btn-fixed {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: lightblue;
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-fixed.visible {
+  visibility: visible;
+}
